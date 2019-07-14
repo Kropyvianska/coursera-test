@@ -35,9 +35,9 @@ WARNING!!! WARNING!!!
 
     var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
     speakGoodBye.name = "John", "Jen", "Jason";
-    var greeting = "Hello ";
-    speakGoodBye.sayHello = function () {
-        console.log(greeting + speakGoodBye.name);
+    var speakWord = "Hello ";
+    speakGoodBye.sayBye = function () {
+        console.log(goodbye + speakGoodBye.name);
     }
     
     // STEP 10: (NOTHING TO DO. ALREADY DONE FOR YOU)
