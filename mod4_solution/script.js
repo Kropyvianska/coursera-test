@@ -34,6 +34,11 @@ WARNING!!! WARNING!!!
 (function () {
 
     var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+    speakGoodBye.name = "John", "Jen", "Jason";
+    var greeting = "Hello ";
+    speakGoodBye.sayHello = function () {
+        console.log(greeting + speakGoodBye.name);
+    }
     
     // STEP 10: (NOTHING TO DO. ALREADY DONE FOR YOU)
     // Loop over the names array and say either 'Hello' or "Good Bye"
